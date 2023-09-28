@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <nav id="personal-bar" class="personal">
+      <ul class="personal-info">
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#contact">Contact</li>
+      </ul>
+    </nav>
+    <section id="welcome-section" class="welcome-section">
+      <h1>Y'ello welcome!</h1>
+      <h2>I am Benjamin</h2>
+      <p>a web developer</p>
+    </section>
+    <section class="project-section" id="projects">
+      <h2 class="project-section-header">These are a few of my projects</h2>
+      <div class="projects-list"></div>
+    </section>
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Available to work...</h2>
+      <p>mind working with a perfectionist?</p>  
+      </div>
+      <div class="contact-links">
+    <a
+      href="https://www.facebook.com/profile.php?id=100063493475159"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-facebook-square"></i> Facebook</a
+    >
+    <a
+      id="profile-link"
+      href="https://github.com/BangerBoy"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-github"></i> GitHub</a
+    >
+    <a
+      href="https://www.linkedin.com/in/benjamin-danso-awotwe-yaw-arthur-b6b8b7234"
+      target="_blank"
+      class="btn contact-details"
+      ><i class="fab fa-linkedin"></i> LinkedIn</a
+    >
+    <a href="mailto:bookingsday@gmail.com" class="btn contact-details"
+      ><i class="fas fa-at"></i> Send a mail</a
+    >
+    <a href="tel:+233-182-5998" class="btn contact-details"
+      ><i class="fas fa-mobile-alt"></i> Call me</a
+    >
+  </div>
+    </section>
+  </body>
+</html>
