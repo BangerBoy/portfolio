@@ -1,0 +1,10 @@
+#main { max-width: 1200px; max-height: 10000px; margin: 30px auto; padding: 20px;
+background: #b9e4d9; border-radius: 6px;}
+#topic { text-align: center;}
+#main > p { text-align: center;}
+#image-div { max-width: 800px; margin: 0 auto; padding: 30px; background-color: #ffffff; }
+#image { display: block; max-width: 100%; padding-bottom: 20px;}
+figcaption { text-align: center;}
+#tribute-info { max-width: 70%; margin: 0 auto; }
+#tribute-info > h2 { text-align: center}
+#tribute-info > ul li { margin-bottom: 30px; line-height: 40px;}
